@@ -7,6 +7,7 @@ CSS (Optional): Custom styles for improving the appearance of the component.
 ShippingStatusController (Apex) The backend logic is handled by an Apex REST service.
 
 
+
 1. HTML Template
 The HTML template provides the user interface for the component. It contains:
 
@@ -23,13 +24,13 @@ Status or error messages are conditionally displayed depending on the API respon
 2. JavaScript Controller
 The JavaScript controller manages the logic for the component. It handles:
 
-Capturing the user’s input (tracking number).
+Capturing the Shipment tracking number on Shipment record detail page.
 Sending a request to the mock shipping status service via Apex.
 Processing the API response and updating the UI with the shipping status or an error message.
 Key points:
 
-State management: Tracking the entered tracking number, shipping status, and any error messages.
-Input handling: User input is captured through an event handler and stored in the component's state.
+State management: Tracking the shipment tracking number, shipping status, and any error messages.
+Input handling: Shipment tracking number is taken by component.
 API call: Upon submission, the tracking number is sent to the backend, and the response is processed to update the UI accordingly.
 
 3. CSS (Optional)

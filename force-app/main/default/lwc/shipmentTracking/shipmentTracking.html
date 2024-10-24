@@ -2,13 +2,14 @@
     <lightning-card title={label.ShipmentTrackerTrackYourShipment} icon-name="standard:shipment" class="slds-theme_shade">
         <div class="slds-m-around_medium">
             <lightning-layout>
-                <lightning-layout-item size="4" class="slds-align_absolute-center">               
+                <lightning-layout-item size="12" class="slds-align_absolute-center">               
                     <lightning-input
-                        label={label.ShipmentTrackerEnterTrackingNumber}
-                        value={trackingNumber}
-                        placeholder="e.g., 1234567890"
+                        label={label.ShipmentTrackerTrackingNumber}
+                        value={trackingNumber} 
                         onchange={handleInputChange}
-                        class="input-tracking slds-p-around_small">
+                        class="input-tracking slds-p-around_small"
+                        read-only
+                        >
                     </lightning-input>
                 </lightning-layout-item>
             </lightning-layout>

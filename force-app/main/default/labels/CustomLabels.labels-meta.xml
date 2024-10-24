@@ -12,7 +12,7 @@
         <language>en_US</language>
         <protected>true</protected>
         <shortDescription>ShipmentTrackerEmptyTrackingNumber</shortDescription>
-        <value>Please enter a tracking number</value>
+        <value>Tracking Number on Shipment is empty</value>
     </labels>
     <labels>
         <fullName>ShipmentTrackerRetrieveStatusError</fullName>
@@ -22,11 +22,11 @@
         <value>Failed to retrieve shipping status</value>
     </labels>
     <labels>
-        <fullName>ShipmentTrackerEnterTrackingNumber</fullName>
+        <fullName>ShipmentTrackerTrackingNumber</fullName>
         <language>en_US</language>
         <protected>true</protected>
-        <shortDescription>ShipmentTrackerEnterTrackingNumber</shortDescription>
-        <value>Enter Tracking Number</value>
+        <shortDescription>ShipmentTrackerTrackingNumber</shortDescription>
+        <value>Shipment Tracking Number</value>
     </labels>
     <labels>
         <fullName>ShipmentTrackerGetShippingStatus</fullName>
