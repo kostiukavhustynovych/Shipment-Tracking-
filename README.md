@@ -12,7 +12,7 @@ ShippingStatusController (Apex) The backend logic is handled by an Apex REST ser
 The HTML template provides the user interface for the component. It contains:
 
 A custom label that replaces the default Lightning Input label for better styling control.
-An input field for the user to enter their tracking number.
+An input read only field that shows tracking number of the Shipment.
 A submit button that triggers an API call to fetch the shipping status.
 A section that displays the shipping status or error message, depending on the response.
 Key functionalities:
@@ -49,7 +49,7 @@ Returns a mock response indicating whether the shipment is "Shipped - On Time".
 Returns an error message if no tracking number is provided.
 
 How It Works
-The user enters a tracking number in the input field.
+Tracking number is taken from the Shipment on record detail page.
 The user clicks the "Get Shipping Status" button.
 The component sends the tracking number to the mock API.
 The API responds with either:
@@ -59,8 +59,5 @@ The result (status or error) is displayed to the user in real time.
 
 Installation and Setup
 Clone this repository to your local environment.
-Deploy the Apex class (MockShippingStatusService) to your Salesforce Org.
-Deploy the LWC (ShipmentTracking) to your Salesforce Org.
-Deploy ShipmentTracking.remoteSite-meta.xml to your Salesforce Org (We need to deploy this to enable the connection to a mock endpoint.)
-Add the LWC component to a Lightning App or Record Page.
-Test by entering a tracking number and submitting it.
+Deploy all metadata from the repository
+![Recording 2024-10-24 at 19 44 53](https://github.com/user-attachments/assets/015d7b05-3d8a-45f4-8551-2778605dcda6)
