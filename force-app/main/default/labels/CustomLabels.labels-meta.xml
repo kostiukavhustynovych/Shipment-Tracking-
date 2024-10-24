@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ShipmentTrackerHttpError</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ShipmentTrackerHttpError</shortDescription>
+        <value>Error fetching shipping status</value>
+    </labels>
+    <labels>
+        <fullName>ShipmentTrackerEmptyTrackingNumber</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ShipmentTrackerEmptyTrackingNumber</shortDescription>
+        <value>Please enter a tracking number</value>
+    </labels>
+    <labels>
+        <fullName>ShipmentTrackerRetrieveStatusError</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ShipmentTrackerRetrieveStatusError</shortDescription>
+        <value>Failed to retrieve shipping status</value>
+    </labels>
+    <labels>
+        <fullName>ShipmentTrackerEnterTrackingNumber</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ShipmentTrackerEnterTrackingNumber</shortDescription>
+        <value>Enter Tracking Number</value>
+    </labels>
+    <labels>
+        <fullName>ShipmentTrackerGetShippingStatus</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ShipmentTrackerGetShippingStatus</shortDescription>
+        <value>Get Shipping Status</value>
+    </labels>
+    <labels>
+        <fullName>ShipmentTrackerTrackYourShipment</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ShipmentTrackerTrackYourShipment</shortDescription>
+        <value>Track Your Shipment</value>
+    </labels>
+</CustomLabels>

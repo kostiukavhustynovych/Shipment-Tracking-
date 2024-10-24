@@ -1,0 +1,18 @@
+.slds-box {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.input-tracking {
+    width: 100%;
+}
+
+.button-status {
+    width: 100%;
+}
+
+.status-box {
+    border-radius: 8px;
+    background-color: #f4f6f9;
+    padding: 1rem;
+}
